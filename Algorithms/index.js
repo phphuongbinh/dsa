@@ -1,5 +1,6 @@
-import { bubbleSort } from "./sort/bubbleSort.js";
+// import { bubbleSort } from "./sort/bubbleSort.js";
 // import linearSearch from "./search/linearSearch.js";
+import { insertionSort } from "./sort/insertionSort.js";
 
 // console.log(linearSearch([-5, 2, 10, 4, 6], 10));
 // console.log(linearSearch([-5, 2, 10, 4, 6], 6));
@@ -17,6 +18,10 @@ import { bubbleSort } from "./sort/bubbleSort.js";
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 6));
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 20));
 
+// const arr = [8, 20, -2, 4, -6];
+// bubbleSort(arr);
+// console.log(arr);
+
 const arr = [8, 20, -2, 4, -6];
-bubbleSort(arr);
+insertionSort(arr);
 console.log(arr);
