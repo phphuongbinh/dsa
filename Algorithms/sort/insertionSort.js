@@ -19,3 +19,5 @@ export function insertionSort(arr) {
     arr[j + 1] = numberToInsert;
   }
 }
+
+// !! BigO = O(n^2)
